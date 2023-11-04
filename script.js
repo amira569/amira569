@@ -1,4 +1,4 @@
-
+//amira salah
 
 const wordText = document.querySelector(".word"),
 hintText = document.querySelector(".hint span"),
