@@ -10,7 +10,7 @@ checkButton = document.querySelector(".checkButton");
 let correctWord, timer;
 
 const initialTimer = (maxTime) => {
-    clearInterval(timer);//when initial time reach to max value clear the interval yo avoid repeating count
+    clearInterval(timer);//when initial time reach to max value clear the interval to avoid repeating count
     timer = setInterval(() => {
         if(maxTime > 0) {
             maxTime--;
